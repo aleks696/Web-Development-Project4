@@ -138,21 +138,21 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px;
-    color: rgb(0, 0, 0); /* Цвет текста */
-    background-color: rgba(0, 0, 0, 0.615); /* Цвет и прозрачность затемнения */
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.615);
 }
 
 .containerAbout h3 {
     font-size: 22px;    
     font-family: "Lora", serif;
     text-align: center;
-    margin: auto; /* Выравниваем текст по центру по вертикали */
+    margin: auto;
 }
 
 @media (max-width: 768px) {
     .containerAbout {
         flex-direction: column;
-        min-height: 200px; /* Уменьшаем высоту для мобильных устройств */
+        min-height: 200px;
         padding: 20px;
     }
     .containerAbout h3 {
